@@ -1,0 +1,34 @@
+{
+  "name": "goit-js-hw-13-image-finder",
+  "version": "1.0.0",
+  "description": "Напиши небольшое приложение поиска и просмотра изображений по ключевому слову",
+  "main": ".posthtmlrc.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-13-image-finder/",
+    "start": "parcel src/index.html -p 3000 --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KokorovetsTatiana/goit-js-hw-13-image-finder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KokorovetsTatiana/goit-js-hw-13-image-finder/issues"
+  },
+  "homepage": "https://kokorovetstatiana.github.io/goit-js-hw-13-image-findernpm start",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "material-design-icons": "^3.0.1",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "pnotify": "^5.2.0",
+    "posthtml-include": "^1.7.1",
+    "sass": "^1.34.0"
+  }
+}

@@ -9,20 +9,18 @@
 </head>
 <body>
 
+    <ul class="gallery js-response">
+    </ul>
+
     <form class="search-form" id="search-form">
-        <input 
-        type="text" 
-        name="query" 
-        autocomplete="off" 
-        placeholder="Search images..." />
+        <label class="search">
+            <input class="search-input" type="text" name="query" autocomplete="on" placeholder="Search images..." />
+            <button class="search-clear js-clear" type="button" title="Clear"></button>
+        </label>
     </form>
-
-    <ul class="gallery">
-    </ul>  
-
+    
     <button class="loadBtn visually-hidden" type="button">Load more</button>
-    
+
     <script src="index.js"></script>
-    
 </body>
 </html>

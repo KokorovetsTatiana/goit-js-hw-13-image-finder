@@ -2,7 +2,7 @@
   "name": "goit-js-hw-13-image-finder",
   "version": "1.0.0",
   "description": "Напиши небольшое приложение поиска и просмотра изображений по ключевому слову",
-  "main": ".posthtmlrc.js",
+  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html --public-url /goit-js-hw-13-image-finder/",
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/KokorovetsTatiana/goit-js-hw-13-image-finder/issues"
   },
-  "homepage": "https://kokorovetstatiana.github.io/goit-js-hw-13-image-findernpm start",
+  "homepage": "https://kokorovetstatiana.github.io/goit-js-hw-13-image-finder",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
